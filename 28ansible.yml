@@ -1,6 +1,6 @@
 ---
 - name: Cau hinh tren Switch
-  hosts: Switch
+  hosts: SW1
   gather_facts: no
   tasks:
    - name: tao vlan
